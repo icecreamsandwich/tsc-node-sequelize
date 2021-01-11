@@ -25,7 +25,7 @@ npm install
 ### Step 3:  Install and configure typescript
 
 ```bash
-npm i -g tsc
+npm i -g typescript
 ```
 > This will install typescript globally
 
@@ -77,7 +77,7 @@ We can additionally specify in which folder we have to create the models, migrat
 ### Running in dev mode
 
 - Run `npm run dev` to start nodemon with ts-node, to serve the app.
-- The server address will be displayed to you as `http://0.0.0.0:3000`
+- The server address will be displayed to you as `http://127.0.0.1:5555`
 
 ### Building the project and run it
 
