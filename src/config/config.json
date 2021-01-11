@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "mZS*uKqRDCeJxO9",
+    "database": "tsc_node_sequelize",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "mZS*uKqRDCeJxO9",
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "",
+    "password": null,
+    "database": "database_production",
+    "host": "",
+    "dialect": "mysql"
+  }
+}
