@@ -84,6 +84,16 @@ We can additionally specify in which folder we have to create the models, migrat
 - Run `npm run build` to generated all JavaScript files from the TypeScript sources (There is also a vscode task for this called `build`).
 - To start the builded app located in `dist` use `npm start`.
 
+### Sample .env file. 
+
+```bash
+    DBHOST=localhost
+    DB=<db_name>
+    DBUSER=<db_user>
+    DBPASSWORD=<db_password>
+    AWS_ACCESS_KEY=
+```
+> Replace with the db credentials and place in the root
 
 ### NOTE:
 As the db models and migrations  created by the sequlize cli is based on ES5, the code on that part wont be in typescript. Instead it will follow the ES5 structure.
