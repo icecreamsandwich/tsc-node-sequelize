@@ -1,4 +1,4 @@
-//db imports goes here
+//import models
 const { User } = require('../models')
 
 export default class TestService {

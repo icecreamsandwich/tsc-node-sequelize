@@ -1,16 +1,17 @@
+module.exports =
 {
   "development": {
-    "username": "root",
-    "password": "<your_password>",
-    "database": "tsc_node_sequelize",
-    "host": "127.0.0.1",
+    "username": process.env.DBUSER,
+    "password": process.env.DBPASSWORD,
+    "database": process.env.DB,
+    "host": process.env.DBHOST,
     "dialect": "mysql"
   },
   "test": {
-    "username": "root",
-    "password": "<your_password>",
+    "username": "",
+    "password": null,
     "database": "database_test",
-    "host": "127.0.0.1",
+    "host": "",
     "dialect": "mysql"
   },
   "production": {
