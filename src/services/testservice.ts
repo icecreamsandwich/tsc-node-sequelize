@@ -36,6 +36,7 @@ export default class TestService {
                     reject(data)
                 })
             } catch (error) {
+                console.log(error)
                 throw Error(error)
             }
         })

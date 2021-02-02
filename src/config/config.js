@@ -1,6 +1,14 @@
+require('dotenv');
 module.exports =
 {
   "development": {
+    "username":"root",
+    "password": "mZS*uKqRDCeJxO9",
+    "database": "tsc_node_sequelize",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "development_ENV": {
     "username": process.env.DBUSER,
     "password": process.env.DBPASSWORD,
     "database": process.env.DB,
